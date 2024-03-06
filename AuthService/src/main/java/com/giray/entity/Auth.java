@@ -1,9 +1,8 @@
 package com.giray.entity;
 
-import com.giray.utility.ERole;
-import com.giray.utility.EStatus;
+import com.giray.utility.enums.ERole;
+import com.giray.utility.enums.EStatus;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Size;
