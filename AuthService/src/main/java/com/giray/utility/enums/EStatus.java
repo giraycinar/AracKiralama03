@@ -1,4 +1,4 @@
-package com.giray.utility;
+package com.giray.utility.enums;
 
 public enum EStatus {
     RENTABLE,

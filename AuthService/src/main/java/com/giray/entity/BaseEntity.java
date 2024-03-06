@@ -13,6 +13,6 @@ import lombok.experimental.SuperBuilder;
 @MappedSuperclass
 public class BaseEntity {
 
-    private Long createData;
-    private Long updateData;
+    private Long createDate;
+    private Long updateDate;
 }

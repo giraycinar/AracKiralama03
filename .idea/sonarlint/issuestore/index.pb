@@ -175,3 +175,11 @@ w
 GAuthService/src/main/java/com/giray/dto/request/RegisterRequestDto.java,2\5\25c4f2d66eef20836c43e0402c8f5892db93cfe1
 y
 IAuthService/src/main/java/com/giray/dto/request/CreateUserRequestDto.java,e\3\e355f120d2d5ae2c2212a6a004620158333fc4ad
+o
+?AuthService/src/main/java/com/giray/utility/ServiceManager.java,f\8\f8070f7ac97b8c5680d61947fa8c2c9cb7884cd1
+i
+9AuthService/src/main/java/com/giray/utility/IService.java,f\a\fa020846cd5f86ad4a58dde07926f4273c988f75
+n
+>AuthService/src/main/java/com/giray/utility/enums/EStatus.java,1\6\16b72d31544fccd4a3cffa59ad4aca6c646f1cd0
+l
+<AuthService/src/main/java/com/giray/utility/enums/ERole.java,c\c\cc7a11523c0bf0a25ffd4d8261e37775b6e6c444
