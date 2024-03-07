@@ -1,4 +1,6 @@
 rootProject.name = 'AracKiralama03'
 include 'AuthService'
 include 'UserService'
+include 'ConfigServer'
+include 'VehicleService'
 
