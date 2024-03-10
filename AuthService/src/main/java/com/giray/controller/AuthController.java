@@ -1,6 +1,7 @@
 package com.giray.controller;
 
 import com.giray.dto.request.RegisterRequestDto;
+import com.giray.dto.response.RegisterResponseDto;
 import com.giray.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -20,7 +21,9 @@ public class AuthController {
     private final AuthService authService;
 
     @PostMapping(REGISTER)
-    public ResponseEntity<Boolean> register(@RequestBody @Valid RegisterRequestDto dto){
+    public ResponseEntity<RegisterResponseDto> register(@RequestBody @Valid RegisterRequestDto dto){
         return ResponseEntity.ok(authService.register(dto));
     }
+
+
 }

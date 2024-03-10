@@ -1,7 +1,6 @@
 package com.giray.entity;
 
 import com.giray.utility.enums.ERole;
-import com.giray.utility.enums.EStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
@@ -36,8 +35,6 @@ public class Auth extends BaseEntity{
     @Enumerated(EnumType.STRING)
     @Builder.Default
     private ERole role = ERole.USER;
-    @Enumerated(EnumType.STRING)
-    @Builder.Default
-    private EStatus status = EStatus.RENTABLE;
+
 
 }

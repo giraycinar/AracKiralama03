@@ -1,11 +1,9 @@
 package com.giray.manager;
 
+import com.giray.dto.request.CreateUserRequestDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import static com.giray.constant.RestApiUrls.ACTIVATE_STATUS;
 import static com.giray.constant.RestApiUrls.DELETE_BY_TOKEN;
@@ -14,8 +12,8 @@ import static com.giray.constant.RestApiUrls.DELETE_BY_TOKEN;
 @FeignClient(url = "http://localhost:7071/api/v1/user-profile",name = "auth-userprofile")
 public interface UserManager {
 
-//        @PostMapping("/create")
-//        public ResponseEntity<Boolean> createUser(@RequestBody CreateUserRequestDto dto);
+    @PostMapping("/create")
+        public ResponseEntity<Boolean> createUser(@RequestBody CreateUserRequestDto dto);
     @GetMapping(ACTIVATE_STATUS+"/{authId}")
     public ResponseEntity<Boolean> activateStatus(@PathVariable Long authId);
     @DeleteMapping(DELETE_BY_TOKEN)

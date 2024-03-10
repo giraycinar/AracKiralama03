@@ -1,3 +1,6 @@
 
-]
-java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØŽúøÿÿÿÿ8Œ«€Æá1
+X	java:S125"<This block of commented-out lines of code should be removed.(â Áä8ËÈÖÎâ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ŸÉÎÎâ1
+X	java:S125("<This block of commented-out lines of code should be removed.(õ…ðñ8¦ùÎÎâ1
+T
+java:S1068"2Remove this unused "authRepository" private field.(¸Ã¦Ÿùÿÿÿÿ8¦ùÎÎâ1
